@@ -1,4 +1,4 @@
-package model;
+package com.dndspringboot.App2DnDSpringboot.model;
 
 public class Player {
 
@@ -9,13 +9,6 @@ public class Player {
 
     //--------------------------------------- CONSTRUCTORS ---------------------------------------
     public Player(){
-    }
-
-    public Player(int id, String name, String type, int healthPoints){
-        this.id = id;
-        this.name = name;
-        this.type = type;
-        this.healthPoints = healthPoints;
     }
 
     //--------------------------------------- GET/SET ---------------------------------------
@@ -59,7 +52,7 @@ public class Player {
 
     @Override
     public String toString() {
-        return "main.java.model.Characters{" +
+        return "main.java.com.dndspringboot.App2DnDSpringboot.model.Characters{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", type='" + type + '\'' +

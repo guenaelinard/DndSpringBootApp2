@@ -1,6 +1,6 @@
-//package model.dao;
+//package com.dndspringboot.App2DnDSpringboot.model.dao;
 //
-//import model.Player;
+//import com.dndspringboot.App2DnDSpringboot.model.Player;
 //import org.springframework.stereotype.Repository;
 //
 //@Repository
